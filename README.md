@@ -29,7 +29,7 @@ Data files are stored in a subfolder named `data/`. They can be downloaded throu
 
 
 
- Variable Descriptions
+Variable Descriptions
  
 Below is a description of the key variables used in the analysis:
 •	SalePrice: The transaction price of the property was sold.
@@ -60,7 +60,7 @@ Required Libraries
 - `quantreg`: For quantile regression.
 
 
- Usage Instructions
+Usage Instructions
  
 1. Load R Markdown File: Open the `2024_Manuscript.Rmd` file in RStudio.
 2. Data Setup: Ensure that the Excel files are located in the `data/` folder as specified.
@@ -80,6 +80,7 @@ Notes & Assumptions
  
 
 Contact
+
 For questions or issues, please contact the project maintainer 
 (nicholas.o.forster-benson@vanderbilt.edu).
 
