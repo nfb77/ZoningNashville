@@ -1,6 +1,6 @@
-## **Project Overview**
+## **Project Overview** 
 
-The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document. It analyzes the impact of upzoning of Nashville’s ‘Downtown Code’ (DTC) as compared to various control boundaries (1k, 3k, 5k, and 10k). This is achieved using both Difference-in-Differences (DID) and Matching models.
+The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document in correspondence with the manuscript **"Upzoning and Residential Transaction Price in Nashville"** by Nicholas Forster-Benson and Karim Nchare. It analyzes the impact of upzoning of Nashville’s ‘Downtown Code’ (DTC) as compared to various control boundaries (1k, 3k, 5k, and 10k). This is achieved using both Difference-in-Differences (DID) and Matching models.
 
 The manuscript relies on data from several Excel files, statistical analysis, and graphical presentation to present insights on treatment effects on housing prices.
 
