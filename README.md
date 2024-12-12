@@ -13,7 +13,7 @@ R Markdown Structure
 - **Matching Methods**: Applies matching techniques to control for covariates.
 
 Data Sources
-Data files are stored in a subfolder named `data/`.
+Data files are stored in a subfolder named `data/`. They can be downloaded through github directly or are available here: (https://drive.google.com/drive/folders/1llFKOvy6GU6cndJVui7Ruojk8p9xz7MW?usp=sharing)
 
 1. **DTC_DID1k.xlsx**: Data for 1km distance.
 2. **DTC_DID3k.xlsx**: Data for 3km distance.
@@ -75,4 +75,5 @@ Notes & Assumptions
 Contact
 For questions or issues, please contact the project maintainer 
 (nicholas.o.forster-benson@vanderbilt.edu).
-![image](https://github.com/user-attachments/assets/6bfec919-fc35-4b7d-88d5-d512882b6c5f)
+
+
