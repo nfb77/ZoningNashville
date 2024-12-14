@@ -31,15 +31,16 @@ The manuscript relies on data from several Excel files, statistical analysis, an
 ## **Variable Descriptions**
  
  Below is a description of the key variables used in the analysis:
- •	SalePrice: The transaction price of the property was sold.
- •	CoreBin: A binary variable indicating if the property was treated (part of the 2010 upzoning ‘Downtown Code.’
- •	TimeBin: A binary variable representing if the sale was before or after the treatment (February 2010).
- •	FinishArea: The total finished square footage of the property.
- •	Acres: The size of the property lot, measured in acres.
-  •	PropZip: The zip code of the property, identifying its general location within a larger geographic area.
- •	Tract: The census tract of the property was sold.
- •	Quarter: The quarter of the year (Q1, Q2, Q3, Q4) in which the property sale took place.
- •	Year: The year in which the property sale occurred.
+ 
+ -	SalePrice: The transaction price of the property was sold.
+ -	CoreBin: A binary variable indicating if the property was treated (part of the 2010 upzoning ‘Downtown Code.’
+ -	TimeBin: A binary variable representing if the sale was before or after the treatment (February 2010).
+ - FinishArea: The total finished square footage of the property.
+ -	Acres: The size of the property lot, measured in acres.
+ -	PropZip: The zip code of the property, identifying its general location within a larger geographic area.
+ -	Tract: The census tract of the property was sold.
+ -	Quarter: The quarter of the year (Q1, Q2, Q3, Q4) in which the property sale took place.
+ - Year: The year in which the property sale occurred.
  
 ## **Required Libraries**
 
