@@ -15,9 +15,7 @@ The manuscript relies on data from several Excel files, statistical analysis, an
 
  ## **Data Sources**
 
-Data files are stored in a subfolder named `data/`. They can be downloaded through github directly or are available here:   (https://drive.google.com/drive/folders/1llFKOvy6GU6cndJVui7Ruojk8p9xz7MW?usp=sharing)
-
-All files contain a record of all residential parcel sales netween 2000 and 2023 in Nashville/Davidson county, with differing control boundry sizes.
+All files contain a data on all residential parcel sales netween 2000 and 2023 in Nashville/Davidson county, with differing control boundry sizes. Data files are stored in a subfolder named `data/`.
 
  1. **1km_Boundary.csv**: Data for treatment and 1km control group.
  2. **3km_Boundary.csv**: Data for treatment and 3km control group.
