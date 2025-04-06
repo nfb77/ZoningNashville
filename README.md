@@ -85,6 +85,7 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
 
 For questions or issues, please contact the project maintainer:
        <p>📧 <a href="mailto:nforsterbenson@g.harvard.edu">nforsterbenson@g.harvard.edu</a></p>
+       or
        <p>📧 <a href="mailto:nicholas.o.forster-benson@vanderbilt.edu">nicholas.o.forster-benson@vanderbilt.edu</a></p>
 
 
