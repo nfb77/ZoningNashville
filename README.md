@@ -15,13 +15,15 @@ The manuscript relies on data from several Excel files, statistical analysis, an
 
  ## **Data Sources**
 
- Data files are stored in a subfolder named `data/`. They can be downloaded through github directly or are available here:   (https://drive.google.com/drive/folders/1llFKOvy6GU6cndJVui7Ruojk8p9xz7MW?usp=sharing)
+Data files are stored in a subfolder named `data/`. They can be downloaded through github directly or are available here:   (https://drive.google.com/drive/folders/1llFKOvy6GU6cndJVui7Ruojk8p9xz7MW?usp=sharing)
 
- 1. **DTC_DID1k.xlsx**: Data for 1km distance.
- 2. **DTC_DID3k.xlsx**: Data for 3km distance.
- 3. **DTC_DID5k.xlsx**: Data for 5km distance.
- 4. **DTC_DID10k.xlsx**: Data for 10km distance.
- 5. **DTC_DIDFULLCONTROL.xlsx**: Full dataset for matching methods.
+All files contain a record of all residential parcel sales netween 2000 and 2023 in Nashville/Davidson county, with differing control boundry sizes.
+
+ 1. **1km_Boundary**: Data for treatment and 1km control group.
+ 2. **DTC_DID3k.xlsx**: Data for treatment and 3km control group.
+ 3. **DTC_DID5k.xlsx**: Data for treatment and 5km control group.
+ 4. **DTC_DID10k.xlsx**: Data for treatment and 10km control group.
+ 5. **DTC_DIDFULLCONTROL.xlsx**: Data for treatment and all of Davidson county control group.
 
 
 
