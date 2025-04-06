@@ -19,11 +19,11 @@ Data files are stored in a subfolder named `data/`. They can be downloaded throu
 
 All files contain a record of all residential parcel sales netween 2000 and 2023 in Nashville/Davidson county, with differing control boundry sizes.
 
- 1. **1km_Boundary**: Data for treatment and 1km control group.
- 2. **DTC_DID3k.xlsx**: Data for treatment and 3km control group.
- 3. **DTC_DID5k.xlsx**: Data for treatment and 5km control group.
- 4. **DTC_DID10k.xlsx**: Data for treatment and 10km control group.
- 5. **DTC_DIDFULLCONTROL.xlsx**: Data for treatment and all of Davidson county control group.
+ 1. **1km_Boundary.csv**: Data for treatment and 1km control group.
+ 2. **3km_Boundary.csv**: Data for treatment and 3km control group.
+ 3. **5km_Boundary.csv**: Data for treatment and 5km control group.
+ 4. **10km_Boundary.csv**: Data for treatment and 10km control group.
+ 5. **Full_Control.csv**: Data for treatment and all of Davidson county control group.
 
 
 
