@@ -9,7 +9,7 @@ The manuscript relies on data from several Excel files, statistical analysis, an
 
   - **Header**: YAML metadata for title, output format (PDF), and the current date.
   - **Setup Chunk**: Loads required R libraries and sets global options.
-  - **Data Preparation and Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
+  - **Descriptive Statistics and Data Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
   - **DiD Regression Models**: Runs multiple linear models to estimate treatment effects.
   - **Matching Methods**: Applies matching techniques to enhance the covariate similarities of treated and non-treated parcels.
   - **Quantile DiD**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
