@@ -53,6 +53,7 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
  - `dplyr`: For data manipulation.
  - `tidyverse`: Collection of data analysis packages.
  - `qte`: For quantile treatment effects.
+ - `fixes`: For event study visualization. 
  - `readxl`: For reading Excel files.
  - `randomForest`: For random forest models.
  - `gbm`: For gradient boosting models.
