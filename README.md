@@ -2,7 +2,7 @@
 
 The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document in correspondence with the manuscript **"Upzoning and Residential Transaction Price in Nashville"** by Nicholas Forster-Benson. It compares residential sale prices of upzoned parcels -part of Nashville’s 2010 ‘Downtown Code’ (DTC) upzoning- with various control boundaries (1k, 3k, 5k, and 10k) as well as synthet controls created through Matching methods. This is achieved using both Difference-in-Differences (DiD), Quantile Difference-in-Dofferences (QDiD).
 
-The manuscript relies on data from .csv files, statistical analysis, and graphical presentation to present insights on treatment effects on housing prices.
+The manuscript relies on data from .CSV files, statistical analysis, and graphical presentation to present insights on treatment effects on housing prices.
 
  
 ## **File Structure (R Markdown)**
@@ -68,7 +68,7 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
 
 ## **Usage Instructions**
  
- 1. Load R Markdown File: Open the `2024_Manuscript.Rmd` file in RStudio.
+ 1. Load R Markdown File: Open the `replication_code.Rmd` file in RStudio.
  2. Data Setup: Ensure that the Excel files are located in the `data/` folder as specified.
  3. Run the File: Click the "Knit" button to generate the PDF report.
   
@@ -76,11 +76,11 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
 
  - Error: File Not Found: Ensure that the `data/` folder contains all required Excel files.
  - Missing Packages: Run `install.packages("package_name")` for any missing R packages.
- - Model Errors: Verify that the columns in the Excel files match those referenced in the code.
+ - Model Errors: Verify that the columns in the .CSV match those referenced in the code.
   
 ## **Notes & Assumptions**
 
- 1. Data Integrity: Ensure that Excel files in the `data/` folder are formatted correctly and column names match the script.
+ 1. Data Integrity: Ensure that .CSV files in the `data/` folder are formatted correctly and column names match the script.
  2. Year Range: The analysis covers data from 2000 to 2023.
  3. Outlier Removal: Sale prices above $2.5M or below $1 are excluded from the analysis.
  
