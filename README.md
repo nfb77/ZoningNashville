@@ -1,18 +1,21 @@
 ## **Project Overview** 
 
-The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document in correspondence with the manuscript **"Upzoning and Residential Transaction Price in Nashville"** by Nicholas Forster-Benson. It compares residential sale prices of upzoned parcels -part of Nashville’s 2010 ‘Downtown Code’ (DTC) upzoning- with various control boundaries (1k, 3k, 5k, and 10k). This is achieved using both Difference-in-Differences (DiD), Quantile Difference-in-Dofferences (QDiD), and Matching methods.
+The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document in correspondence with the manuscript **"Upzoning and Residential Transaction Price in Nashville"** by Nicholas Forster-Benson. It compares residential sale prices of upzoned parcels -part of Nashville’s 2010 ‘Downtown Code’ (DTC) upzoning- with various control boundaries (1k, 3k, 5k, and 10k) as well as synthet controls created through Matching methods. This is achieved using both Difference-in-Differences (DiD), Quantile Difference-in-Dofferences (QDiD).
 
-The manuscript relies on data from several Excel files, statistical analysis, and graphical presentation to present insights on treatment effects on housing prices.
+The manuscript relies on data from .csv files, statistical analysis, and graphical presentation to present insights on treatment effects on housing prices.
 
  
 ## **File Structure (R Markdown)**
 
   - **Header**: YAML metadata for title, output format (PDF), and the current date.
   - **Setup Chunk**: Loads required R libraries and sets global options.
-  - **Descriptive Statistics and Data Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
+  - **Data Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
   - **DiD Regression Models**: Runs multiple linear models to estimate treatment effects.
-  - **Matching Methods**: Applies matching techniques to enhance the covariate similarities of treated and non-treated parcels.
   - **Quantile DiD**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
+  - **Temporally Segmented Regression**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
+  - **Covariate Balance Tables**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
+  - **Descriptive Statistics**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
+
 
  ## **Data Sources**
 
