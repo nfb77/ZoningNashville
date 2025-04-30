@@ -12,9 +12,9 @@ The manuscript relies on data from .csv files, statistical analysis, and graphic
   - **Data Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
   - **DiD Regression Models**: Runs multiple linear models to estimate treatment effects.
   - **Quantile DiD**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
-  - **Temporally Segmented Regression**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
-  - **Covariate Balance Tables**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
-  - **Descriptive Statistics**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
+  - **Temporally Segmented Regression**:  Estimates treatment effects separately for different time periods to assess dynamic trends.
+  - **Covariate Balance Tables**: Evaluates whether treatment and control groups are similar on key covariates after matching.
+  - **Descriptive Statistics**: Summarizes key variables through means, medians, and distributions to provide context before analysis.
 
 
  ## **Data Sources**
@@ -37,6 +37,7 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
  Below is a description of the key variables used in the analysis:
  
  -	SalePrice: The transaction price of the property was sold.
+ -	PricePerSqrft: Represents the price per square foot of a parcel.
  -	CoreBin: A binary variable indicating if the property was treated (part of the 2010 upzoning ‘Downtown Code.’
  -	TimeBin: A binary variable representing if the sale was before or after the treatment (February 2010).
  - FinishArea: The total finished square footage of the property.
