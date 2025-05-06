@@ -10,11 +10,11 @@ The manuscript relies on data from .CSV files, statistical analysis, and graphic
   - **Header**: YAML metadata for title, output format (PDF), and the current date.
   - **Setup Chunk**: Loads required R libraries and sets global options.
   - **Data Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
-  - **DiD Regression Models**: Runs multiple linear models to estimate treatment effects.
-  - **Quantile DiD**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
-  - **Temporally Segmented Regression**:  Estimates treatment effects separately for different time periods to assess dynamic trends.
-  - **Covariate Balance Tables**: Evaluates whether treatment and control groups are similar on key covariates after matching.
   - **Descriptive Statistics**: Summarizes key variables through means, medians, and distributions to provide context before analysis.
+  - **Covariate Balance Tables**: Evaluates whether treatment and control groups are similar on key covariates after matching.
+  - **DiD Regression Models (ATE)**: Runs multiple linear models to estimate treatment effects.
+  - **Temporally Segmented Regression**:  Estimates treatment effects separately for different time periods to assess dynamic trends.
+  - **Quantile DiD Regression Models (QTE)**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
 
 
  ## **Data Sources**
