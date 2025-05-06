@@ -71,7 +71,7 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
  
  1. Load R Markdown File: Open the `replication_code.Rmd` file in RStudio.
  2. Data Setup: Ensure that the Excel files are located in the `data/` folder as specified.
- 3. Run the File: Click the "Knit" button to generate the PDF report.
+ 3. Run the File: Click the "Knit" button to generate the PDF report, providing all tables and visualization presented in manuscript.
   
 ## **Troubleshooting**
 
@@ -90,21 +90,3 @@ All files contain a data on all residential parcel sales netween 2000 and 2023 i
 
 For questions or issues, please contact the project maintainer:
        <p>📧 <a href="nforsterbenson@g.harvard.edu">nforsterbenson@g.harvard.edu</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
