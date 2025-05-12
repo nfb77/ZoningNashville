@@ -1,6 +1,6 @@
 ## **Project Overview** 
 
-The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document in correspondence with the manuscript <a href="https://nfb77.github.io/Files/URTPN.pdf" target="_blank">"Upzoning and Residential Transaction Price in Nashville"</a> by Nicholas Forster-Benson and Karim Nchare. It compares residential sale prices of upzoned parcels -part of Nashville’s 2010 ‘Downtown Code’ (DTC) upzoning- with various control boundaries (1k, 3k, 5k, and 10k) as well as synthetic controls created through Matching methods. This is achieved using both Difference-in-Differences (DiD), Quantile Difference-in-Dofferences (QDiD).
+The **replication_code.Rmd** is an R Markdown file designed to produce a PDF document in correspondence with the manuscript <a href="https://nfb77.github.io/Files/URTPN.pdf" target="_blank">"Upzoning and Residential Transaction Price in Nashville"</a> by Nicholas Forster-Benson and Karim Nchare. It compares residential sale prices of upzoned parcels -part of Nashville’s 2010 ‘Downtown Code’ (DTC) upzoning- with various geographic control boundaries as well as synthetic controls created through matching methods. This is achieved using both Difference-in-Differences (DiD), Quantile Difference-in-Dofferences (QDiD).
 
 The manuscript relies on data from .CSV files, statistical analysis, and graphical presentation to present insights on treatment effects on housing prices.
 
