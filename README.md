@@ -7,16 +7,28 @@ The manuscript relies on data from .CSV files, statistical analysis, and graphic
  
 ## **File Structure (R Markdown)**
 
-  - **Header**: YAML metadata for title, output format (PDF), and the current date.
-  - **Setup Chunk**: Loads required R libraries and sets global options.
-  - **Data Visualization**: Imports data, processes it, and visualizes it using `ggplot2`.
-  - **Descriptive Statistics**: Summarizes key variables through means, medians, and distributions to provide context before analysis.
-  - **Covariate Balance Tables**: Evaluates whether treatment and control groups are similar on key covariates after matching.
-  - **Event Studies**: TWFE sequantial treatment event studies allow us to evaluate treatment trends on a yearly basis.
-  - **DiD Regression Models (ATE)**: Runs multiple linear models to estimate treatment effects.
-  - **Temporally Segmented Regression**:  Estimates treatment effects separately for different time periods to assess dynamic trends.
-  - **Quantile DiD Regression Models (QTE)**: Applies weights to different ranges of the distribution to estimate the effects across different market segments.
+- **Header**: YAML metadata for title, output format (PDF), and the current date.
+- **Setup Chunk**: Loads required R libraries and sets global options.
 
+- **Data Visualization and Descriptive Statistics**:  
+  - Produces log of price by treatment figures using both geographic and matched controls.  
+  - Includes a pre-treatment placebo analysis with both matching (PSM) and geographic (3km) controls.  
+  - Summarizes key variables using descriptive statistics.
+
+- **Covariate Balance Tables**:  
+  - Presents balance diagnostics for covariates using both geographic and matched samples.
+
+- **Event Studies**:  
+  - Constructs two-way fixed effects (TWFE) event studies with sequential treatment timing.  
+  - Estimates dynamic treatment effects using both geographic and matched controls.
+
+- **Estimating Average Treatment Effects (ATE)**:  
+  - Implements DiD regressions for log sale price and price per square foot using both geographic and matched controls.  
+  - Includes temporally segmented DiD models for two periods (2010–2015, 2016–2023) across both sample types.
+
+- **Quantile Treatment Effects (QTE)**:  
+  - Estimates distributional treatment effects using quantile DiD (Q-DiD) approaches.  
+  - Applies the method with both geographic and matched samples to assess heterogeneity in impacts.
 
 
 ## **File Structure (R Markdown)**
